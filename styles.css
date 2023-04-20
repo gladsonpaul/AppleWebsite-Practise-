@@ -70,13 +70,11 @@ nav #drop1 {
   width: 80%;
   display: none;
   z-index: 20;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
 }
 
-nav a:hover
-{
-  color:rgb(255, 255, 255);
-  
+nav a:hover {
+  color: rgb(255, 255, 255);
 }
 
 nav #drop1 #title {
@@ -86,8 +84,7 @@ nav #drop1 #title {
   letter-spacing: normal;
 }
 
-nav a
-{
+nav a {
   text-decoration: none;
   color: rgb(228, 228, 228);
 }
@@ -113,8 +110,8 @@ nav #drop2 {
   width: 80%;
   display: none;
   z-index: 999;
- 
-  letter-spacing: .7px;
+
+  letter-spacing: 0.7px;
 }
 
 nav #drop2 #title {
@@ -134,8 +131,8 @@ nav #drop3 {
   width: 80%;
   display: none;
   z-index: 20;
- 
-  letter-spacing: .7px;
+
+  letter-spacing: 0.7px;
 }
 
 nav #drop3 #title {
@@ -155,8 +152,8 @@ nav #drop4 {
   width: 80%;
   display: none;
   z-index: 20;
-  
-  letter-spacing: .7px;
+
+  letter-spacing: 0.7px;
 }
 
 nav #drop4 #title {
@@ -165,7 +162,6 @@ nav #drop4 #title {
   margin-bottom: -20px;
   letter-spacing: normal;
 }
-
 
 nav #drop5 {
   position: absolute;
@@ -177,8 +173,8 @@ nav #drop5 {
   width: 80%;
   display: none;
   z-index: 20;
-  
-  letter-spacing: .7px;
+
+  letter-spacing: 0.7px;
 }
 
 nav #drop5 #title {
@@ -198,13 +194,81 @@ nav #drop5 #title {
   text-align: center;
   padding: 8px;
   font-family: "Satoshi", sans-serif;
-  
 }
 
-.container2
-{
-  position: relative;
+.container2 {
+  background-color: rgb(244, 237, 237);
   width: 100vw;
-  height: 60vh;
-  background-color: rgb(247, 236, 236);
+  height: 90vh;
 }
+
+.container2 #two {
+  position: relative;
+  top: 20%;
+  left: 11%;
+}
+
+.container2 .box1 {
+  position: absolute;
+  width: 40%;
+  text-align: left;
+  margin-top: 8%;
+  margin-left:50%;
+}
+
+.container2 .box1 h1
+{
+  font-family: "Satoshi", sans-serif;
+  font-size: 4.3em;
+}
+
+.container2 .box1 p
+{
+  font-family: "Satoshi", sans-serif;
+  font-size: large;
+  line-height: 148%;
+}
+.container2 .box1 p span{
+  font-weight: 500;
+}
+
+.container2 .box1 a
+{
+  
+  text-decoration: underline;
+  font-family: "Satoshi", sans-serif;
+}
+
+.container2 .box1 .colors div
+{
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top:10% ;
+  border:  2px solid rgb(95, 95, 95);
+  cursor: pointer;
+}
+
+.container2 .box1 .colors
+{
+  display: flex;
+  margin-right: 50%;
+}
+
+.container2 .box1 .colors .one
+{
+  background-color: rgb(155, 154, 154);
+}
+
+.container2 .box1 .colors .two
+{
+  background-color:azure;
+}
+
+.container2 .box1 .colors .third
+{
+  background-color:rgb(226, 165, 175);
+}
+
