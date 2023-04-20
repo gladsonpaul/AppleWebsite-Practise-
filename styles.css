@@ -1,0 +1,210 @@
+/* rgba(22, 22, 23, .8) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.bg1 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_EMEA?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617539);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.bg1 h1 {
+  position: absolute;
+  font-size: 6em;
+  font-family: "Satoshi", sans-serif;
+  top: 35%;
+  left: 40px;
+}
+
+.bg1 h1 span {
+  background-color: #fdff32;
+}
+
+.bg1 p {
+  position: relative;
+  top: 55%;
+  left: 40px;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+}
+nav {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(22, 22, 23, 0.8);
+  color: whitesmoke;
+  font-family: "Satoshi", sans-serif;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 13px 29px;
+  list-style-type: none;
+}
+
+nav #drop1 {
+  position: absolute;
+  background-color: rgb(47, 47, 48);
+
+  top: 100%;
+  left: 11%;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 80%;
+  display: none;
+  z-index: 20;
+  letter-spacing: .7px;
+}
+
+nav a:hover
+{
+  color:rgb(255, 255, 255);
+  
+}
+
+nav #drop1 #title {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: -20px;
+  letter-spacing: normal;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: rgb(228, 228, 228);
+}
+
+/* #list1:hover #drop1
+{
+  display: block;
+}
+
+#list2:hover #drop2
+{
+  display: block;
+} */
+
+nav #drop2 {
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(47, 47, 48);
+  top: 100%;
+  left: 11%;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 80%;
+  display: none;
+  z-index: 999;
+ 
+  letter-spacing: .7px;
+}
+
+nav #drop2 #title {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: -20px;
+  letter-spacing: normal;
+}
+
+nav #drop3 {
+  position: absolute;
+  background-color: rgb(47, 47, 48);
+  top: 100%;
+  left: 11%;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 80%;
+  display: none;
+  z-index: 20;
+ 
+  letter-spacing: .7px;
+}
+
+nav #drop3 #title {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: -20px;
+  letter-spacing: normal;
+}
+
+nav #drop4 {
+  position: absolute;
+  background-color: rgb(47, 47, 48);
+  top: 100%;
+  left: 11%;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 80%;
+  display: none;
+  z-index: 20;
+  
+  letter-spacing: .7px;
+}
+
+nav #drop4 #title {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: -20px;
+  letter-spacing: normal;
+}
+
+
+nav #drop5 {
+  position: absolute;
+  background-color: rgb(47, 47, 48);
+  top: 100%;
+  left: 11%;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 80%;
+  display: none;
+  z-index: 20;
+  
+  letter-spacing: .7px;
+}
+
+nav #drop5 #title {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: -20px;
+  letter-spacing: normal;
+}
+
+#sale {
+  position: absolute;
+  width: 100%;
+  background-color: darkgrey;
+  color: rgb(46, 46, 46);
+  top: 49px;
+  z-index: 1;
+  text-align: center;
+  padding: 8px;
+  font-family: "Satoshi", sans-serif;
+  
+}
+
+.container2
+{
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  background-color: rgb(247, 236, 236);
+}
