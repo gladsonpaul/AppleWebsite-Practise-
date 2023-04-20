@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="jquery.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#list1").hover(function () {
+        $("#drop1")
+          .fadeToggle(200)
+          .css("transition", " cubic-bezier(1, 0, 0, 1)");
+      });
+
+      $("#list2").hover(function () {
+        $("#drop2").fadeToggle(200);
+      });
+
+      $("#list3").hover(function () {
+        $("#drop3").fadeToggle(200);
+      });
+
+      $("#list4").hover(function () {
+        $("#drop4").fadeToggle(200);
+      });
+
+      $("#list5").hover(function () {
+        $("#drop5").fadeToggle(200);
+      });
+    });
+  </script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li style="margin-top: 3px">
+          <img src="./images/logo.png" alt="" width="16px" />
+        </li>
+        <li id="list1">
+          Store
+          <ul id="drop1">
+            <!-- The Drop Down Menu (STORE)-->
+            <li id="title">Shop</li>
+            <li><a href="#">Shop the Latest</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Apple Watch</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </li>
+
+        <li id="list2">
+          Mac
+          <ul id="drop2">
+            <!-- The Drop Down Menu (MAC)-->
+            <li id="title">Explore Mac</li>
+            <li><a href="#">Explore All Mac</a></li>
+            <li><a href="#">Macbook Air</a></li>
+            <li><a href="#">Macbook Pro</a></li>
+            <li><a href="#">iMac</a></li>
+            <li><a href="#">Mac Mini</a></li>
+            <li><a href="#">Mac Studio</a></li>
+          </ul>
+        </li>
+
+        <li id="list3">
+          iPad
+          <ul id="drop3">
+            <!-- The Drop Down Menu (iPad)-->
+            <li id="title">Explore Ipad</li>
+            <li><a href="#">Explore All iPad</a></li>
+            <li><a href="#">iPad Air</a></li>
+            <li><a href="#ipad">iPad Pro</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPad Mini</a></li>
+            <li><a href="#">Apple Pencil</a></li>
+          </ul>
+        </li>
+        <li id="list4">
+          iPhone
+          <ul id="drop4">
+            <!-- The Drop Down Menu (iPhone)-->
+            <li id="title">Explore Iphone</li>
+            <li><a href="#">Explore All iPhones</a></li>
+            <li><a href="#">iPhone 14 Pro</a></li>
+            <li><a href="#">iPhone 14</a></li>
+            <li><a href="#">iPhone 13</a></li>
+            <li><a href="#">iPhone 12</a></li>
+            <li><a href="#">iPhone SE</a></li>
+          </ul>
+        </li>
+        <li id="list5">
+          Watch
+          <ul id="drop5">
+            <!-- The Drop Down Menu (Watch)-->
+            <li id="title">Explore Watch</li>
+            <li><a href="#">Explore All Apple Watch</a></li>
+            <li><a href="#">Apple Watch Ultra</a></li>
+            <li><a href="#">Apple Watch Series 8</a></li>
+            <li><a href="#">Apple Watch SE</a></li>
+            <li><a href="#">Apple Watch Nike</a></li>
+          </ul>
+        </li>
+        <li>AirPods</li>
+        <li>TV & Home</li>
+        <li>Accessories</li>
+        <li style="margin-top: 3px">
+          <img src="./images/cart.png" alt="" width="16px" />
+        </li>
+        <li style="margin-top: 3px">
+          <img src="./images/search.png" alt="" width="16px" />
+        </li>
+      </ul>
+    </nav>
+    <p id="sale">Hurry! Sale is LIVE till Oct 8th, 2023 5pm IST.</p>
+    <div class="bg1">
+      <h1>iPhone <span>14</span></h1>
+      <p>
+        Our biggest and baddest, yet.<br />In your hands.
+        <a href="#">Know More</a>
+      </p>
+    </div>
+    <div class="container2" id="ipad">
+      <div class="box1">
+        <h1>iPad Pro</h1>
+        <p>Astonishing performance. Incredibly advanced displays. Superfa wireless connectivity. Next-level Apple
+          Pencil capabilities. Powerful new features in iPadOS 16.<br><span>In short, The ultimate iPad
+            experience.</span></p>
+        <a href="#">Know More</a>
+        <div class="colors">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="third"></div>
+        </div>
+      </div>
+      <!-- <img src="./images/ipadpro.png" alt="" width="390px"> -->
+      <img src="./images/ipadpro2.png" alt="" width="340px" id="two">
+
+    </div>
+  </div>
+</body>
+
+</html>
