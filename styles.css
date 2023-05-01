@@ -290,18 +290,73 @@ nav #drop5 #title {
   top: 18%;
 }
 
-/* @media screen and (max-width:480px) {
-  
-  nav
-  {
-    display: none;
-  }
-
-
-  
-} */
-
 #base   
 {
   transition: .4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.watch
+{
+  height: 90vh;
+  width: 100vw;
+  background-color: rgb(252, 158, 111);
+}
+
+.watch img
+{
+  position: relative;
+  left: 60vw;
+  top: 60px;
+  transform: rotate(20deg);
+  
+}
+
+.watch h2
+{
+  position: absolute;
+  font-size: 6em;
+  top: 210vh;
+  left: 50px;
+  font-family: "Satoshi", sans-serif;
+  color: rgb(235, 63, 1) ;
+  /* text-shadow:  2px 2px 0px rgb(190, 51, 0); */
+}
+
+.watch h2 span
+{
+  position: relative;
+  font-size: .5em;
+  left: 0px;
+  top: -60px;
+  color: #f1f0f0;
+  font-weight: bolder;
+  /* box-shadow: inset 5px 5px 10px orangered; */
+}
+
+
+.watch p
+{
+  position: relative;
+  bottom: 32%;
+  left: 4vw;
+  color: #f1f0f0;
+  font-family: "Satoshi", sans-serif;
+  font-size: 2.4em;
+  line-height: 1.4;
+  text-align: justify;
+  font-weight: bolder;
+}
+.watch p span
+{
+  text-decoration: line-through 4px orangered;
+}
+
+.watch p a
+{
+  font-size: .5em;
+  position: relative;
+  line-height: 0%;
+  font-weight: normal;
+  top: -20px;
+  left:  5px;
 }
