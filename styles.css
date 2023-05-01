@@ -202,7 +202,19 @@ nav #drop5 #title {
   height: 90vh;
 }
 
-.container2 #two {
+.container2 #base {
+  position: relative;
+  top: 20%;
+  left: 11%;
+}
+
+.container2 #space {
+  position: relative;
+  top: 20%;
+  left: 11%;
+}
+
+.container2 #silver {
   position: relative;
   top: 20%;
   left: 11%;
@@ -243,7 +255,7 @@ nav #drop5 #title {
 {
   width: 30px;
   height: 30px;
-  background-color: blue;
+  /* background-color: blue; */
   border-radius: 50%;
   margin-right: 20px;
   margin-top:10% ;
@@ -267,8 +279,29 @@ nav #drop5 #title {
   background-color:azure;
 }
 
-.container2 .box1 .colors .third
+.container2 .box1 .colors .three
 {
-  background-color:rgb(226, 165, 175);
+  background-image:linear-gradient(to right , rgb(155, 154, 154), azure);
 }
 
+.images
+{
+  position: relative;
+  top: 18%;
+}
+
+/* @media screen and (max-width:480px) {
+  
+  nav
+  {
+    display: none;
+  }
+
+
+  
+} */
+
+#base
+{
+  transition: all .3s linear;
+}

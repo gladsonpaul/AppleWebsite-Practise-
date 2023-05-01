@@ -8,6 +8,9 @@
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet" />
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* rgba(22, 22, 23, .8) */
+  </style>
   <script src="jquery.js"></script>
   <script>
     $(document).ready(function () {
@@ -32,6 +35,35 @@
       $("#list5").hover(function () {
         $("#drop5").fadeToggle(200);
       });
+
+      $('#base').show();
+
+      // $('.one').click(function () {
+      //   $('.images').find('img:hidden').eq(0).fadeIn("fast").siblings('img').fadeOut('fast');
+      // });
+
+      // $('.two').click(function () {
+      //   $('.images').find('img:hidden').eq(1).fadeIn("fast").siblings('img').fadeOut("fast");
+      // });
+
+     $('.one').on({
+      "click":function(){
+        $('#base').attr('src', 'space1.png').width('290px');
+      }
+     });
+
+     $('.two').on({
+      "click":function(){
+        $('#base').attr('src', 'silver1.png').width('290px');
+      }
+     });
+
+     $('.three').on({
+      "click":function(){
+        $('#base').attr('src', 'ipadpro2.png').width('290px') ;
+      }
+     });
+
     });
   </script>
   <title>Document</title>
@@ -139,12 +171,13 @@
         <div class="colors">
           <div class="one"></div>
           <div class="two"></div>
-          <div class="third"></div>
+          <div class="three"></div>
         </div>
       </div>
       <!-- <img src="./images/ipadpro.png" alt="" width="390px"> -->
-      <img src="./images/ipadpro2.png" alt="" width="340px" id="two">
-
+      
+        <img src="ipadpro2.png" alt="" width="320px" id="base">
+      
     </div>
   </div>
 </body>
