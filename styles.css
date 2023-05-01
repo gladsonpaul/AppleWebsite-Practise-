@@ -307,8 +307,16 @@ nav #drop5 #title {
   position: relative;
   left: 60vw;
   top: 60px;
-  transform: rotate(20deg);
-  
+  /* transform: rotate(20deg); */
+  overflow-x: hidden;
+  transition: 4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.watch img:hover
+{
+  scale: 126%;
+  transform: rotate(90deg);
+
 }
 
 .watch h2
