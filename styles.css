@@ -477,3 +477,11 @@ footer a
   font-size: .8em;
   font-weight: lighter;
 }
+
+@media screen and (max-width:480px) {
+    footer
+    {
+     width: 100%;
+      
+    }
+}
