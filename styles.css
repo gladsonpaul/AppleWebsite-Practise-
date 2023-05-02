@@ -306,18 +306,25 @@ nav #drop5 #title {
 {
   position: relative;
   left: 60vw;
-  top: 60px;
+  top: 70px;
   /* transform: rotate(20deg); */
   overflow-x: hidden;
-  transition: 4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation: levi 4s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) ;
+}
+@keyframes levi {
+  0%{transform: translateY(0px);}
+  50%{transform: translateY(20px);}
+  100%{transform: translateY(0px);}
+  
 }
 
 .watch img:hover
 {
-  scale: 126%;
-  transform: rotate(90deg);
-
+  scale: 124%;
+  transform: rotate(20deg);
 }
+
 
 .watch h2
 {
@@ -345,7 +352,7 @@ nav #drop5 #title {
 .watch p
 {
   position: relative;
-  bottom: 32%;
+  bottom: 26%;
   left: 4vw;
   color: #f1f0f0;
   font-family: "Satoshi", sans-serif;
@@ -367,4 +374,106 @@ nav #drop5 #title {
   font-weight: normal;
   top: -20px;
   left:  5px;
+}
+
+.airpod
+{
+  height: 90vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+#airpod
+{
+  position: relative;
+  top: 50px;
+  left: 40px;
+  transition: 2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#airpod:hover
+{
+  scale: 110%;
+}
+
+.airpod .text
+{
+  position: relative;
+  left: 700px;
+  top: -340px;
+  font-family: "Satoshi", sans-serif;
+}
+
+.airpod .text h2
+{
+  font-size: 3.4em;
+  font-family: "Satoshi", sans-serif;
+  color:rgb(105, 102, 102);
+}
+.airpod .text h2 span
+{
+  color: rgb(40, 88, 128);
+}
+
+.airpod .text p
+{
+  font-size: 1.3em;
+}
+.airpod .text a
+{
+  font-size: medium;
+}
+
+.imac img
+{
+  position: relative;
+  left: 560px;
+  top: 50px;
+  overflow-x: hidden;
+  transition: 2s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.imac img:hover
+{
+  scale: 110%;
+
+}
+
+.imac .text{
+  font-family: "Satoshi", sans-serif;
+  color:rgb(105, 102, 102);
+  position: relative;
+  top: -300px;
+  left: 40px;
+}
+
+.imac .text h2
+{
+  font-size: 3.4em;
+}
+
+.imac .text p
+{
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.imac .text a{
+  font-size: medium;
+}
+
+footer
+{
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(240, 239, 239);
+  font-family: "Satoshi", sans-serif;
+}
+
+footer a
+{
+  color: rgb(143, 143, 143);
+  text-decoration: none;
+  font-size: .8em;
+  font-weight: lighter;
 }
